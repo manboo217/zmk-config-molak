@@ -1,0 +1,4 @@
+config SHIELD_MOLAK_XIAO_RIGHT
+   def_bool $(shields_list_contains, molak_xiao_right)
+config SHIELD_MOLAK_XIAO_LEFT
+   def_bool $(shields_list_contains, molak_xiao_left)

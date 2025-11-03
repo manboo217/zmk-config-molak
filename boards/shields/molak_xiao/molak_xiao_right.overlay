@@ -1,0 +1,14 @@
+#include "lily58.dtsi"
+
+&default_transform {
+    col-offset = <7>;
+};
+
+&kscan0 {
+    col-gpios
+        = <&xiao_d 16 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 17 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 11 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 12 GPIO_ACTIVE_HIGH>
+        ;
+};

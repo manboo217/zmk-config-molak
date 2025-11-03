@@ -1,0 +1,13 @@
+file_format: "1"
+id: molak_xiao
+name: Molak_xiao
+type: shield
+url: https://github.com/manboo217/zmk-config.git
+requires: [seeduino_xiao_ble]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - molak_xiao_right
+  - molak_xiao_left
