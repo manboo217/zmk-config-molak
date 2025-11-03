@@ -6,6 +6,22 @@
         zmk,physical-layout = &layout_molak_xiao;
     };
 
+    physical_layout0: physical_layout0 {
+        compatible = "zmk,physical-layout";
+        display-name = "MolakXiao";
+        kscan = <&kscan0>;
+        transform = <&default_transform>;
+
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0     0     0>
+            , <&key_physical_attrs 100 100  300    0       0     0     0>
+            , <&key_physical_attrs 100 100  400    0       0     0     0>
+            , <&key_physical_attrs 100 100    0  100       0     0     0>
+            , <&key_physical_attrs 100 100  100  100       0     0     0>
+            ;
+    };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
@@ -63,6 +79,8 @@
     };
 };
 
-&layout_60_ansi {
+
+
+&layout_molak_xiao {
     transform = <&default_transform>;
 };
