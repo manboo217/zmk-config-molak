@@ -18,6 +18,10 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+board: [ "seeeduino_xiao_ble" ]
+shield: [ "molak_xiao_right", "molak_xiao_left" ]
 include:
-  - board: seeeduino_xiao_ble
-    shield: [ "molak_xiao_right", "molak_xiao_left" ]
+  - board: "seeeduino_xiao_ble"
+    shield: "molak_xiao_right"
+  - board: "seeeduino_xiao_ble"
+    shield: "molak_xiao_left"
