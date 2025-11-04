@@ -1,7 +1,17 @@
 if SHIELD_MOLAK_XIAO_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "molak_xiao"
+    default "molak_xiao_left"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MOLAK_XIAO_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "molak_xiao_right"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
