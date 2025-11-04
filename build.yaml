@@ -22,8 +22,10 @@ board: [ "seeeduino_xiao_ble" ]
 shield: [ "molak_xiao_right", "molak_xiao_left" ]
 include:
   - board: "seeeduino_xiao_ble"
-    shield: "molak_xiao_right"
+    shield: molak_xiao_right rgbled_adapter
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: "seeeduino_xiao_ble"
-    shield: "molak_xiao_left"
+    shield: molak_xiao_left rgbled_adapter
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
