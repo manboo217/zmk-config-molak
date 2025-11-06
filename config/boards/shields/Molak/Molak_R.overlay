@@ -1,9 +1,9 @@
 #include "Molak.dtsi"
 
 &default_transform {
-    col-offset = <7>;
+    col-offset = <9>;
+    row-offset = <9>;
 };
-
 
 &right_encoder {
     status = "okay";
