@@ -42,9 +42,7 @@
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V   &kp B        &kp LEFT_SHIFT       &kp RIGHT_SHIFT &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
 &kp LCTL        &kp LEFT_ALT                                      &lt 4 SPACE  &lt 4 ENTER          &lt 1 ENTER     &kp SPACE                                    &kp BACKSLASH  &kp RIGHT_ALT
             >;
-            sensor-bindings = <&scroll_up_down
-                               &scroll_left_right
-                              >;
+            sensor-bindings = <&scroll_left_right>  <&scroll_up_down>;
         };
 
         number_layer {
