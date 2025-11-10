@@ -7,7 +7,9 @@ manifest:
     - name: badjeff
       url-base: https://github.com/badjeff
     - name: caksoylar
-      url-base: https://github.com/caksoylar  
+      url-base: https://github.com/caksoylar
+    - name: zettaface
+      url-base: https://github.com/zettaface
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -18,6 +20,9 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
+      revision: main
+    - name: zmk-input-processor-keybind
+      remote: zettaface
       revision: main
   self:
     path: config
