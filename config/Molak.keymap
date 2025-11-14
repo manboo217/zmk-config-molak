@@ -63,7 +63,7 @@
             label = "SYM";
             bindings = <
 &trans  &trans        &trans  &trans  &trans  &studio_unlock           &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3        &bt BT_SEL 4       &bt BT_CLR
-&trans  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5                   &trans          &kp JP_LPAR    &kp JP_RPAR      &kp JP_MINUS        &kp JP_CARET       &kp JP_YEN
+&trans  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5                   &kp JP_LPAR     &kp JP_RPAR    &kp JP_MINUS     &kp JP_CARET        &kp JP_YEN         &trans 
 &trans  &kp N6        &kp N7  &kp N8  &kp N9  &kp N0  &trans   &trans  &kp CARET       &kp AMPERSAND  &kp JP_SEMI      &kp JP_COLON        &kp JP_LBKT        &kp JP_AT
 &trans  &trans        &trans  &trans  &trans  &trans  &trans   &trans  &trans          &kp JP_COMMA   &kp JP_DOT       &kp SLASH           &kp JP_RBKT        &trans
 &trans  &trans                                &trans  &trans   &trans  &trans                                                              &trans             &trans
